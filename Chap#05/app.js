@@ -11,23 +11,23 @@
 
 // // Subraction
 
- let sub = numFirst - numSecond
- document.write(`Subraction of ${numFirst} and ${numSecond} is ${sub} <br>`)
+ let subtraction = numFirst - numSecond
+ document.write(`Subraction of ${numFirst} and ${numSecond} is ${subtraction} <br>`)
 
 // // Multiplication
 
- let mult = numFirst * numSecond
- document.write(`Multiplication of ${numFirst} and ${numSecond} is ${mult} <br>`)
+ let multiplication = numFirst * numSecond
+ document.write(`Multiplication of ${numFirst} and ${numSecond} is ${multiplication} <br>`)
 
 // // Division
 
- let divis = numFirst / numSecond
-document.write(`Division of ${numFirst} and ${numSecond} is ${divis} <br>`)
+ let division = numFirst / numSecond
+document.write(`Division of ${numFirst} and ${numSecond} is ${division} <br>`)
 
 // // Modulus.
 
- let module = numFirst % numSecond
- document.write(`Modulus of ${numFirst} and ${numSecond} is ${module} <br> `)
+ let modules= numFirst % numSecond
+ document.write(`Modulus of ${numFirst} and ${numSecond} is ${modules} <br> `)
 
 
 // Q3. Do the following using JS Mathematic Expressions
