@@ -12,8 +12,7 @@ A:var myName ="Syeda Aisha"
 // b.Assign “Hello World” to variable message.
 // c. Display the message in alert box.
 
-A:
-a. var message
+ var message
 b. message ="Hello World"
 c. alert (message)
 
