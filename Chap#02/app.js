@@ -13,8 +13,8 @@ A:var myName ="Syeda Aisha"
 // c. Display the message in alert box.
 
  var message
-b. message ="Hello World"
-c. alert (message)
+ message ="Hello World"
+alert (message)
 
 // Q:4 Write a script to save student’s bio data in JS variables and
 // show the data in alert boxes?
