@@ -90,12 +90,159 @@ let ticketPrice = 600
  document.write(`Total cost to buy 5 tickets to a movie is ${total} PKR`)
 
 // Q5. Write a script to display multiplication table of any number in your browser. E.g?
-// Q5. Write a script to display multiplication table of any number in your browser.
 
- let table = 4; 
+ let num  =  1;
 
-document.write(`Table of ${table} <br><br>`);
+ document.write(`<h1> TABLE OF 4 </h1> <br>`)
+ document.write(`4 X ${num} = ${4*num}`)
+ num++ 
+ document.write("<br />")
+ document.write(`4 X ${num} =  ${4*num}`)
+ num++ 
+ document.write("<br />")
+ document.write(`4 X ${num} =  ${4*num}`)
+ num++ 
+ document.write("<br />")
+ document.write(`4 X ${num} =  ${4*num}`)
+ num++ 
+ document.write("<br />")
+ document.write(`4 X ${num} =  ${4*num}`)
+ num++ 
+ document.write("<br />")
+ document.write(`4 X ${num} =  ${4*num}`)
+ num++ 
+ document.write("<br />")
+ document.write(`4 X ${num} =  ${4*num}`)
+ num++ 
+ document.write("<br />")
+ document.write(`4 X ${num} =  ${4*num}`)
+ num++ 
+ document.write("<br />")
+ document.write(`4 X ${num} =  ${4*num}`)
+ num++ 
+ document.write("<br />")
+ document.write(`4 X ${num} =  ${4*num}`)
 
- for (let i = 1; i <= 10; i++)
-    
- {document.write(`${table} x ${i} = ${table * i} <br>`)};
+
+// Q6. The Temperature Converter: It’s hot out! Let’s make a converter based on the steps here?
+
+
+// a. Store a Celsius temperature into a variable.
+ let celsius = 25
+
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+ let fahrenheit = (celsius * 9/ 5) + 32;
+
+// c. Now store a Fahrenheit temperature into a variable.
+ fahrenheit= 77
+
+// d. Convert it to Celsius & output “NNoF is NNoC”.
+// celsius = (fahrenheit - 32) * 5/ 9
+ document.write(`${celsius} C is ${fahrenheit} F <br> `)
+ fahrenheit= (celsius * 9 /5) + 32
+ document.write(`${fahrenheit} F is ${celsius} C <br> `)
+
+// Q7. Write a program to implement checkout process of a shopping cart system for an e-commerce website. Store
+// the following in variables?
+// a. Price of item 1
+// b. Price of item 2
+// c. Ordered quantity of item 1
+// d. Ordered Quantity of item 2
+// e. Shipping charges
+
+ let priceItem1 = 650
+ let priceItem2 = 100
+ let quantityItem2 = 3
+ let orderedQuantity = 7
+let shippingCharges = 100
+// // Compute the total cost & show the receipt in your browser.
+ let total = (priceItem1 * quantityItem2) + (priceItem2 * orderedQuantity) + shippingCharges;
+ document.write(` Price of item 1 is ${priceItem1} <br>`)
+ document.write(`Quantity of item 1 is ${quantityItem2} <br>`)
+ document.write(`Price of item 2 is ${priceItem2} <br>`)
+ document.write(`Quantity of item 2 is ${orderedQuantity} <br>`)
+ document.write(` Shipping Charges ${shippingCharges} <br>`)
+ document.write(`Total cost of your order is ${total} <br>`);
+
+// Q8. Store total marks & marks obtained by a student in 2 variables. Compute the percentage & show the result in your browser?
+
+ let totalMaks = 980
+ let marksObtained = 804
+ let percentage = (marksObtained/totalMaks) * 100
+ document.write(`<h1>MARK SHEET </h1> <br>`)
+ document.write(`Total Marks ${totalMaks} <br>`)
+ document.write(`Marks Obtained ${marksObtained} <br>`)
+ document.write(`Percentage ${percentage} <br>`);
+
+// 9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a script to convert the total currency to Pakistani Rupees.
+// Perform all calculations in a single expression. (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
+// and 1 Saudi Riyal = 28 Pakistani Rupee)
+
+ let pKR = (10 * 104.80) + (25 *28)
+ document.write(`<h1> Currency in PKR </h1> <br>`)
+ document.write(`Total Currency in PKR : ${pKR} <br>`)
+
+// Q10. Write a program to initialize a variable with some number and do arithmetic in following sequence:
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2
+// Perform all calculations in a single expression
+
+ let num = 5;
+ let calculate =((num * 10) / 2)
+ document.write(`<h1> Arithmetic Operators in a Single line </h1> <br>`)
+ document.write(`Output ${calculate} <br>`)
+
+
+//  Q11. The Age Calculator: Forgot how old someone is? Calculate it!
+// a. Store the current year in a variable.
+// b. Store their birth year in a variable.
+// c. Calculate their 2 possible ages based on the stored values.
+
+ let currentYear = 2025
+ let birthYear = 2005
+ let age = currentYear - birthYear;
+
+// // Output them to the screen like so: “They are either NN or NN years old”.
+ document.write(`<h1> Age Calculator </h1> <br>`)
+ document.write(`Current Year: ${currentYear} <br>`)
+ document.write(`Birth Year: ${birthYear} <br>`)
+ document.write(`Age ${age} <br>`)
+
+// Q12. The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
+ let radius = 20 
+ document.write(`<h1>The Geometrizer </h1> <br>`)
+ document.write(`Radius of a Circle ${radius} <br>`)
+// // b. Calculate the circumference based on the radius, and  output “The circumference is NN”.
+// //  (Hint : Circumference of a circle = 2 π r , π = 3.142)
+ let circumference = (2 * 3.142) * radius
+ document.write(`“The circumference is ${circumference}”<br>`)
+// // Calculate the area based on the radius, and output “The
+// // area is NN”. (Hint : Area of a circle = π r2, π = 3.142)
+ let area =  3.142 * radius * radius
+ document.write (`The area is : ${area} <br>`) 
+
+
+// 13. The Lifetime Supply Calculator: Ever wonder how much a “lifetime supply” of your favorite snack is?
+// Wonder no more.
+// // a. Store your favorite snack into a variable
+ let favSnack = "Choclate Chip"
+ document.write(`<h1>The LifeTime Supply Calculator </h1> <br>`)
+ document.write(`Favouite Snack: ${favSnack} <br>`)
+
+// // b. Store your current age into a variable.
+ let age = 15
+ document.write(`Current Age: ${age} <br>`)
+// // c. Store a maximum age into a variable.
+ let maximumAge = 65
+ document.write(`Estimated Maximum Age: ${maximumAge} <br>`)
+// // d. Store an estimated amount per day (as a number).
+ let day = 3
+ document.write(`Amount of Snack Per Day: ${day} <br>`)
+// // e. Calculate how many would you eat total for the rest of
+// // your life.
+ let total = (65 - 15) * 3
+// // Output the result to the screen like so: “You will need
+// // NNNN to last you until the ripe old age of NN”.
+ document.write(`“You will need ${total} ${favSnack} to last you until the ripe old age of ${maximumAge}” <br>`);
