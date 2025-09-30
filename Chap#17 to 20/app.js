@@ -30,8 +30,8 @@
 // 4. Write a program to print multiplication table of any number using for loop.
 // Table number & length should be taken as an input from user.
 
-// let tableNo = prompt('Enter a table to show its multiplication table');
-// let tableLength = prompt('Enter the length of the multiplication table');
+// let tableNo = +prompt('Enter a table to show its multiplication table');
+// let tableLength = +prompt('Enter the length of the multiplication table');
 
 // document.write(`Multiplication table of ${tableNo}<br>Length ${tableLength}<br><br>`);
 
@@ -149,25 +149,25 @@
 // 8. Write a program to identify the largest number in the given array.
 // A = [24, 53, 78, 91, 12].
 
-// let arr = [24, 53, 78, 91, 12];
-// let largest = arr[0];
+// const arr = [24, 53, 78, 91, 12];
+// let largestNum = arr[0];
 // console.log(arr[0]);
 
 // for (let i = 0; i < arr.length; i++) {
-//     if (arr[i] > largest) {
-//         largest = arr[i];
+//     if (arr[i] > largestNum) {
+//         largestNum = arr[i];
 //     }
 // }
 
 // document.write(`Array items : ${arr}<br>`);
-// document.write(`The largest number is ${largest}`);
+// document.write(`The largest number is ${largestNum}`);
 
 
 // 9. Write a program to identify the smallest number in the given array.
 // A = [24, 53, 78, 91, 12]
 
 
-// let arr = [24, 53, 78, 91, 12];
+// const arr = [24, 53, 78, 91, 12];
 // let smallestNo = arr[0];
 
 // for (let i = 0; i < arr.length; i++) {
