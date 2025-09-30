@@ -2,7 +2,7 @@
 
 // 1. Declare and initialize an empty multidimensional array.(Array of arrays)
 
-// let arr=[];
+// let multiArray = [[]];  // An array containing an empty array
 
 // 2. Declare and initialize a multidimensional array representing the following matrix:
 
