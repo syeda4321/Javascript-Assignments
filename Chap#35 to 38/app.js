@@ -221,20 +221,5 @@
 // • Calculate the area based on the radius, and output "The area
 // is NN".
 
-// Circumferenceofcircle = 2πr
-// Areaofcircle = πr2
 
-// function calcCircumference(value){
-//    let circumference=2*3.141*value;
-//     returncircumference
-// }
-//  function calcArea(value){
-//     let area=3.141*(value*value);
-//      return area
-//  }
-// let radius=+prompt('Enter radius of circle ');
-// let circumference=calcCircumference(radius);
-// let area=calcArea(radius);
-// document.write('The Circumference of circle is '+circumference+'<br>')
-// document.write('The Area of circle is '+area+'<br>')
 
